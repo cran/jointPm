@@ -1,0 +1,5 @@
+export(binteg)
+export(Glog)
+export(Gneglog)
+export(plot1)
+export(plot2)

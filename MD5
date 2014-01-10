@@ -1,0 +1,15 @@
+7425fabff8fbfcd238758f22a5217101 *DESCRIPTION
+c152abd0b483e0dae12e2d33dac78619 *NAMESPACE
+07ca8be7a3c3e7c55cde0787e0895011 *R/Glog.R
+60ebaddf087c2de200a7908e552fecfb *R/Gneglog.R
+ac72d4dcd5a1bd4d8d4c02c0dd4c0ce7 *R/binteg.R
+bddf836ebe46663aa248878145e27497 *R/plot1.R
+35051c23dd4f36455dfc6c3c04e2f49a *R/plot2.R
+4bd73bcf30f579ad930e2973b41038f4 *data/flood.RData
+294634c1f1f24af60b45bd5874642bfc *man/Glog.Rd
+c6dc2d3982c91a6ef1370af385d5c4ed *man/Gneglog.Rd
+7d5d390dad28b5daf5af574e4d058a81 *man/binteg.Rd
+8dcf8a957a05efa0428ca65fb1925aea *man/flood.Rd
+f131d87a5a560fe38e2b56f23e0484cf *man/jointPm-package.Rd
+18a95e1b7018a08162776c3623a7a946 *man/plot1.Rd
+8f41b90471ed6a4e300faeba387d0fa5 *man/plot2.Rd
