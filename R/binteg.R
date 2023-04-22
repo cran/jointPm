@@ -183,8 +183,7 @@ binteg=function(px,py,z,prm,pout,model="log",prob="AEP",nz=100,ninc=1000){
   if(check) if(nout.ok==0) stop("No requested output probabilities within the computable range")
   # get output levels corresponding to probabilities
   zout=matrix(0,nout.ok,4); names(zout)=names(pout.aep)
-  library(stats)
-  for(i in 1:4) zout[,i]=approx(pout.all[,i],thresh,xout=pout.ok)$y # extract the output threshold
+  for(i in 1:4) zout[,i]=stats::approx(pout.all[,i],thresh,xout=pout.ok)$y # extract the output threshold
   colnames(zout) <- c("Complete_dep","Observed_dep","Observed_dep","Complete_inp")
   # construct output object
   obj=list(p.aep=pout.ok,p.ari=pout.ok.ari,zout=zout,              # main output
